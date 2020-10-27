@@ -182,7 +182,7 @@ body{
 }
 
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 675px) {
   .movie{
     display: flex;
     flex-direction: column;
@@ -237,4 +237,81 @@ body{
     border: 1px solid black;
   }
   
+}
+
+@media only screen and (min-width: 676px) and (max-width: 768px) {
+  .searchBar{
+    display: flex;
+    justify-content: center;
+  }
+
+  .searchBar input[type=text] {
+    width: 50%;
+    height: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .searchBar button{
+    padding: 0rem 2rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  .movie img{
+    width: 180px;
+    height: 250px;
+  }
+
+  .movie-title{
+    font-size: 0.8rem;
+    width: 180px;
+    height: 65px;
+  }
+
+  .movie-detailsBtn {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+  }
+
+  .modal-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    font-size: 1rem;
+  }
+
+  .modal-img img{
+    width: 200px;
+    height: auto;
+  }
+
+
+  .pages {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  .pages b {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  
+  .pages b:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  .actualPage {
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+  }
 }

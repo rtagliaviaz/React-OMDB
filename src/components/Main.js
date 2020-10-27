@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 
+//component
+import MovieModal from './MovieModal'
+
 //api
 const api = 'http://www.omdbapi.com/?'
 //api key
@@ -144,24 +147,7 @@ const Main = () => {
             
             {/* modal */}
             {movieDetails && (selID===movie.imdbID) && show ? 
-              <div className="modal display-block">
-                <section className="modal-main">
-                  
-                  <div className="modal-body">
-                    <div className="modal-img">
-                      <img src={movieDetails.Poster} alt="Poster"/>
-                    </div>
-                    <div className="modal-info">
-                      <p><b>Actors:</b> {movieDetails.Actors}</p>
-                      <p><b>Genre:</b> {movieDetails.Genre}</p>
-                      <p><b>Director:</b> {movieDetails.Director}</p>
-                      <p><b>Released:</b> {movieDetails.Released}</p>
-                      <p><b>Plot:</b> {movieDetails.Plot}</p>
-                    </div>
-                  </div>
-                  <button className="modal-closebtn"onClick={handleClose}>Close</button>
-                </section>
-              </div>: 
+              <MovieModal movieInfo={movieDetails} handleClose={handleClose}/> : 
               <div className="modal display-none"></div>
             }
 
@@ -171,9 +157,9 @@ const Main = () => {
 
       {pagesNum ? 
         <div className="pages">
-          {/* {pages} */}
-          {actualPag-1===0 ? null : <b onClick={e => goTo(actualPag-1)}>{actualPag-1}</b>}
-          {/* <b onClick={e => goTo(actualPag-1)}>{actualPag-1===0 ? null : actualPag-1}</b> */}
+          {/* {pages} */} 
+          {/* if prev page is 0 it wont show */}
+          {actualPag-1===0 ? null : <b onClick={e => goTo(actualPag-1)}>{actualPag-1}</b>} 
           <b onClick={e => goTo(actualPag)} className="actualPage">{actualPag}</b>
           <b onClick={e => goTo(actualPag+1)}>{actualPag+1}</b>
         </div>
