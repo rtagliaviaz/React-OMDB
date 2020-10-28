@@ -1,7 +1,7 @@
 # React-OMDB
 
 ## Demo
-http://robjs.me/React-OMDB/
+- http://robjs.me/React-OMDB/
 
 ## Dependencies
 - react  
