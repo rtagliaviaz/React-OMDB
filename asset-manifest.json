@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-OMDB/static/css/main.3620d4eb.chunk.css",
+    "main.js": "/React-OMDB/static/js/main.96b5e94d.chunk.js",
+    "main.js.map": "/React-OMDB/static/js/main.96b5e94d.chunk.js.map",
+    "runtime-main.js": "/React-OMDB/static/js/runtime-main.47dad443.js",
+    "runtime-main.js.map": "/React-OMDB/static/js/runtime-main.47dad443.js.map",
+    "static/js/2.4e02f597.chunk.js": "/React-OMDB/static/js/2.4e02f597.chunk.js",
+    "static/js/2.4e02f597.chunk.js.map": "/React-OMDB/static/js/2.4e02f597.chunk.js.map",
+    "index.html": "/React-OMDB/index.html",
+    "precache-manifest.9dd229fc194566825554867c9f92bf60.js": "/React-OMDB/precache-manifest.9dd229fc194566825554867c9f92bf60.js",
+    "service-worker.js": "/React-OMDB/service-worker.js",
+    "static/css/main.3620d4eb.chunk.css.map": "/React-OMDB/static/css/main.3620d4eb.chunk.css.map",
+    "static/js/2.4e02f597.chunk.js.LICENSE.txt": "/React-OMDB/static/js/2.4e02f597.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47dad443.js",
+    "static/js/2.4e02f597.chunk.js",
+    "static/css/main.3620d4eb.chunk.css",
+    "static/js/main.96b5e94d.chunk.js"
+  ]
+}
