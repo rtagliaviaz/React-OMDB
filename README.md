@@ -1,7 +1,11 @@
 # React-OMDB
 
+## Demo
+http://robjs.me/React-OMDB/
+
 ## Dependencies
-axios
+- react  
+- axios
 
 ## Description
 A simple Movie DB app made it with ReactJS, custom CSS and OMDB API
