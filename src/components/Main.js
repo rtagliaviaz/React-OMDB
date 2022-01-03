@@ -6,7 +6,7 @@ import MovieModal from './MovieModal'
 
 //api
 
-const api = 'http://www.omdbapi.com/?'
+const api = 'https://www.omdbapi.com/?'
 
 //api key
 const apiKey = 'apikey=18eaeb4f'
