@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-OMDB/static/css/main.3620d4eb.chunk.css",
-    "main.js": "/React-OMDB/static/js/main.b100f342.chunk.js",
-    "main.js.map": "/React-OMDB/static/js/main.b100f342.chunk.js.map",
+    "main.js": "/React-OMDB/static/js/main.7da77fd2.chunk.js",
+    "main.js.map": "/React-OMDB/static/js/main.7da77fd2.chunk.js.map",
     "runtime-main.js": "/React-OMDB/static/js/runtime-main.47dad443.js",
     "runtime-main.js.map": "/React-OMDB/static/js/runtime-main.47dad443.js.map",
     "static/js/2.4e02f597.chunk.js": "/React-OMDB/static/js/2.4e02f597.chunk.js",
     "static/js/2.4e02f597.chunk.js.map": "/React-OMDB/static/js/2.4e02f597.chunk.js.map",
     "index.html": "/React-OMDB/index.html",
-    "precache-manifest.8cd5d2b3b4738ad0838c7d056c3d25f0.js": "/React-OMDB/precache-manifest.8cd5d2b3b4738ad0838c7d056c3d25f0.js",
+    "precache-manifest.d674b220d2ae8a65c65526e5351841f4.js": "/React-OMDB/precache-manifest.d674b220d2ae8a65c65526e5351841f4.js",
     "service-worker.js": "/React-OMDB/service-worker.js",
     "static/css/main.3620d4eb.chunk.css.map": "/React-OMDB/static/css/main.3620d4eb.chunk.css.map",
     "static/js/2.4e02f597.chunk.js.LICENSE.txt": "/React-OMDB/static/js/2.4e02f597.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.47dad443.js",
     "static/js/2.4e02f597.chunk.js",
     "static/css/main.3620d4eb.chunk.css",
-    "static/js/main.b100f342.chunk.js"
+    "static/js/main.7da77fd2.chunk.js"
   ]
 }

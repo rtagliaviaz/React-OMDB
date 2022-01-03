@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90258fec53d908da9bbffe876d6bef4f",
+    "revision": "d81fe7ad820566dd1b42336c82e9943d",
     "url": "/React-OMDB/index.html"
   },
   {
-    "revision": "4b6f1ffce86e7ad74b5b",
+    "revision": "4611360d22ff5d1f0e2f",
     "url": "/React-OMDB/static/css/main.3620d4eb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-OMDB/static/js/2.4e02f597.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b6f1ffce86e7ad74b5b",
-    "url": "/React-OMDB/static/js/main.b100f342.chunk.js"
+    "revision": "4611360d22ff5d1f0e2f",
+    "url": "/React-OMDB/static/js/main.7da77fd2.chunk.js"
   },
   {
     "revision": "7425d82af7f829a34d14",
