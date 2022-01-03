@@ -5,7 +5,9 @@ import axios from 'axios'
 import MovieModal from './MovieModal'
 
 //api
+
 const api = 'https://www.omdbapi.com/?'
+
 //api key
 const apiKey = 'apikey=18eaeb4f'
 
@@ -59,6 +61,7 @@ const Main = () => {
       axios.get(api+apiKey+`&s=${name}`+"&type=movie"+`&page=${page}`)
     .then(res => {
       if (res) {
+
         setList(res.data.Search)
         setResults(res.data.totalResults)
       }
@@ -68,6 +71,7 @@ const Main = () => {
     axios.get(api+apiKey+`&s=${name}`+"&type=movie"+"&page=1")
     .then(res => {
       if (res) {
+
         setList(res.data.Search)
         setResults(res.data.totalResults)
         setActualPag(1)
@@ -87,10 +91,12 @@ const Main = () => {
 
   const details = (e, id) => {
     e.preventDefault()
+
     setSelID(id)
     axios.get(api+apiKey+`&i=${id}`)
     .then(res => {
       if (res) {
+
         setMovieDetails(res.data)
       }
     })
@@ -111,6 +117,7 @@ const Main = () => {
   }
 
   const goTo = (page) => {
+
     setActualPag(page)
     getInfo(page)
     window.scrollTo(0, 0)
